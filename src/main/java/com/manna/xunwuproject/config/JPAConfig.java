@@ -19,7 +19,6 @@ import javax.sql.DataSource;
 @Configuration
 @EnableJpaRepositories(basePackages = "com.manna.xunwuproject.repository")
 @EnableTransactionManagement
-@EnableAutoConfiguration(exclude = org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration.class)
 public class JPAConfig {
 
 

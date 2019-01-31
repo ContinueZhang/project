@@ -13,10 +13,5 @@ public class XunwuProjectApplication {
         SpringApplication.run(XunwuProjectApplication.class, args);
     }
 
-//    @RequestMapping(name = "/hello")
-//    public String hello() {
-//        return "Hello,Manna";
-//    }
-
 }
 
